@@ -1,0 +1,154 @@
+html,body {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family: Verdana;
+  background-color: #EDEDED;
+}
+a{
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container{
+  width:100%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+/* Header */
+
+header{
+  background-color: #EDEDED;
+  overflow:hidden;
+  margin:0 auto;
+/*  position: fixed;
+  float:left;
+  width:100%;
+  top:0; */
+}
+header ul{
+  height:70px;
+  text-align:center;
+  margin-right:2.5%;
+  white-space: nowrap;
+}
+header ul li{
+  margin-right: 15px;
+  padding:0;
+  display:inline-block;
+}
+header ul li a {
+  color: #303030;
+  font-size:1.5em;
+  padding:15px;
+  display:block;
+}
+header ul li a:hover{
+  background-color:  #E0E0E0;
+}
+
+.logo img{
+  display:block;
+  margin:0 auto;
+  width:auto;
+  height:auto;
+  max-height:150px;
+}
+
+/* Panels */
+
+.welcome-panel {
+  padding: 2%;
+  background:url('../img/wallpaper.gif') no-repeat;
+  background-size: cover;
+  height:650px;
+  color:white;
+  text-align:center;
+}
+.welcome-panel h1{
+  padding-top:200px;
+  font-size:30px;
+  margin-bottom:30px;
+}
+.welcome-panel h2{
+  color:white;
+  font-size:24px;
+  margin-bottom:100px;
+}
+.welcome-panel .next-btn{
+  width:150px;
+  height:40px;
+  line-height: 2.5;
+  background-color:rgba(255,255,255,0.2);
+  border:1.5px solid black;
+  border-radius:3px;
+  color:white;
+  margin:0 auto;
+  padding:5px;
+}
+
+.about-us {
+  padding: 2%;
+  background-color:lightgray;
+  height:50%;
+  text-align:center;
+  font-size:18px;
+  color:#363636;
+  margin:0 auto;
+}
+.about-us iframe{
+  border:0;
+  margin-top:50px;
+}
+.about-us p{
+  line-height:2;
+  font-size:1.5em;
+}
+
+.coffee{
+  padding: 2%;
+  background-color:#E3E3E3;
+  height:50%;
+  text-align:center;
+  color:#363636;
+  font-size:1.5em;
+  margin:0;
+  overflow:hidden;
+}
+.coffee p{
+  font-size:18px;
+  margin-bottom:50px;
+}
+
+.coffee ul{
+  margin:0;
+}
+.coffee ul li{
+  display:inline-block;
+  margin-right:50px;
+  background-color:#D4AF7F;
+  height:250px;
+  width:250px;
+  border-radius:50%;
+  border:5px solid #DBDBDB;
+}
+.coffee ul li a{
+  color:#363636;
+  line-height:5;
+  display:block;
+}
+.coffee img{
+  display:block;
+  margin:50px auto;
+  width:auto;
+  height:auto;
+  max-height:150px;
+}
+/* Footer */
+footer   {
+  margin:0;
+  height:200px;
+  padding: 2%;
+  overflow:hidden;
+}
